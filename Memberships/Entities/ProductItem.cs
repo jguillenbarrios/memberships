@@ -17,7 +17,7 @@ namespace Memberships.Entities
 
         [Required]
         [Key, Column(Order = 2)]
-        public int ContectId { get; set; }
+        public int ItemId { get; set; }
 
         [NotMapped]
         public int OldProductId { get; set; }
