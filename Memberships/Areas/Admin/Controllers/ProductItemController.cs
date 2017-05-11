@@ -48,7 +48,7 @@ namespace Memberships.Areas.Admin.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create([Bind(Include = "ProductId,ContectId")] ProductItem productItem)
+        public async Task<ActionResult> Create([Bind(Include = "ProductId,ItemId")] ProductItem productItem)
         {
             if (ModelState.IsValid)
             {
@@ -80,7 +80,7 @@ namespace Memberships.Areas.Admin.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit([Bind(Include = "ProductId,ContectId")] ProductItem productItem)
+        public async Task<ActionResult> Edit([Bind(Include = "ProductId,ItemId")] ProductItem productItem)
         {
             if (ModelState.IsValid)
             {
