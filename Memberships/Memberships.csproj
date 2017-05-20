@@ -221,6 +221,7 @@
     <Compile Include="Entities\SubscriptionProduct.cs" />
     <Compile Include="Entities\UserSubscription.cs" />
     <Compile Include="Extensions\ICollectionExtensions.cs" />
+    <Compile Include="Extensions\IdentityExtensions.cs" />
     <Compile Include="Extensions\ReflectionExtensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -303,11 +304,11 @@
     <Content Include="fonts\OpenSans\BoldItalic\OpenSans-BoldItalic.woff" />
     <Content Include="fonts\OpenSans\BoldItalic\OpenSans-BoldItalic.ttf" />
     <Content Include="fonts\OpenSans\BoldItalic\OpenSans-BoldItalic.eot" />
-    <Content Include="Areas\Admin\Views\Shared\_BackToListButtonPartial.cshtml" />
+    <Content Include="Views\Shared\_BackToListButtonPartial.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_EditButtonPartial.cshtml" />
-    <Content Include="Areas\Admin\Views\Shared\_CreateButtonPartial.cshtml" />
-    <Content Include="Areas\Admin\Views\Shared\_SmallButtonPartial.cshtml" />
-    <Content Include="Areas\Admin\Views\Shared\_TableButtonPartial.cshtml" />
+    <Content Include="Views\Shared\_CreateButtonPartial.cshtml" />
+    <Content Include="Views\Shared\_SmallButtonPartial.cshtml" />
+    <Content Include="Views\Shared\_TableButtonPartial.cshtml" />
     <Content Include="Areas\Admin\Views\Part\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Part\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\Part\Details.cshtml" />
@@ -402,6 +403,10 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_AdminMenuPartial.cshtml" />
+    <Content Include="Views\Account\Index.cshtml" />
+    <Content Include="Views\Account\Create.cshtml" />
+    <Content Include="Views\Account\Edit.cshtml" />
+    <Content Include="Views\Account\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
