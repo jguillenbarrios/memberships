@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace Memberships.Models
+{
+    //Will Represent 1 product
+    public class ThumbnailModel
+    {
+        public int ProductId { get; set; }
+        public int SubscriptionId { get; set; }
+
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string TagText { get; set; }
+        public string ImageUrl { get; set; }
+        public string Link { get; set; }
+        public string ContectTag { get; set; }
+
+    }
+}
